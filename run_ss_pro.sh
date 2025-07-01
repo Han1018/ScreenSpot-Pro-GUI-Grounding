@@ -3,7 +3,7 @@ set -e
 
 # English
 
-models=("qwen_gui" )
+models=("zonui" )
 for model in "${models[@]}"
 do
     python eval_screenspot_pro.py  \

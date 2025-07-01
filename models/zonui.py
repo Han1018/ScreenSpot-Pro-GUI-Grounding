@@ -26,8 +26,8 @@ def image_to_temp_filename(image):
     print(f"Image saved to temporary file: {temp_file.name}")
     return temp_file.name
 
-class Qwen_GUIModel():
-    def load_model(self, model_name_or_path="zonghanHZH/Qwen-GUI-3B"):
+class ZonUIModel():
+    def load_model(self, model_name_or_path="zonghanHZH/ZonUI-3B"):
         self.min_pixels = 256*28*28
         self.max_pixels = 1280*28*28
         self.device = "cuda"

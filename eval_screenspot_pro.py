@@ -62,9 +62,9 @@ def build_model(args):
             model.load_model(model_name_or_path=model_name_or_path)
         else:
             model.load_model()
-    elif model_type == "qwen_gui":
-        from models.qwen_gui import Qwen_GUIModel
-        model = Qwen_GUIModel()
+    elif model_type == "zonui":
+        from models.zonui import ZonUIModel
+        model = ZonUIModel()
         if args.model_name_or_path:
             model.load_model(model_name_or_path=model_name_or_path)
         else:
